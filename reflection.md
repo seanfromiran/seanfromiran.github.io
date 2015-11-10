@@ -1,3 +1,5 @@
+seanfromiran.github.io
+
 What did you learn about CSS padding, borders, and margin by doing this challenge?
 
 I did not really use borders in this challenge to help position my elements. However, in an effort to learn more about padding and magin, I used the two pretty much interchangeably to see if it would make a difference in appearance. I think because I didn't use border, I wasn't able to see any difference between the padding and margin.
