@@ -1,0 +1,47 @@
+h1 {
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #988F48;
+	text-align: center;
+}
+
+html {
+	background-color: #D4FFF6;
+}
+
+body {
+	height: 100%;
+}
+
+nav {
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+footer {
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #988F48;
+    text-align: center;
+}
+
+a:link {
+	color: #936AE8;
+}
+
+a:visited {
+	color: #FF7353;
+}
+
+img.displayed {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: 50%;
+}
