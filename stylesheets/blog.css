@@ -11,7 +11,12 @@ html {
 }
 
 body {
+	border: groove #22AE67;
 	height: 100%;
+}
+
+header {
+
 }
 
 nav {
@@ -24,7 +29,7 @@ nav {
 
 section {
 	margin-left: 7em;
-	position: relative;
+	position: static;
 }
 
 #left {
@@ -36,6 +41,7 @@ section {
 footer {
     height: 50px;
     position: absolute;
+    clear: both;
     bottom: 0;
     left: 0;
     width: 100%;
