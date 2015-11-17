@@ -4,6 +4,7 @@ h1 {
 	margin-right: auto;
 	background-color: #988F48;
 	text-align: center;
+	border: groove #22AE67;
 }
 
 html {
@@ -11,29 +12,41 @@ html {
 }
 
 body {
-	border: groove #22AE67;
 	height: 100%;
 }
 
-header {
-
+#blog {
+	border: none;
+	margin-bottom: 2em;
 }
 
-nav {
-	width: 40%;
+#post {
+	float: left;
+	width: 30%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 5em;
 	text-align: center;
+	position: relative;
+}
+
+nav {
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5em;
+	text-align: center;
+	position: relative;
 }
 
 section {
-	margin-left: 7em;
-	position: static;
+	float: right;
+	width: 65%;
+	text-align: left;
+	position: relative;
 }
 
 #left {
-	position: fixed;
 	left: 0;
 	height: 50%;
 }
