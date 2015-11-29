@@ -1,9 +1,18 @@
 h1 {
-	width: 40%;
+	text-align: center;
+	font-family: Garamond;
+	font-style: bold;
+	background-image: url(../imgs/h1-background.png);
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #988F48;
+	width: 40%;
+}
+
+h4 {
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
 }
 
 html {
@@ -11,20 +20,28 @@ html {
 }
 
 nav {
-	width: 40%;
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	text-align: center;
+	width: 60%;
 }
 
 footer {
-    height: 100px;
-    position: absolute;
+    height: 1.5em;
     bottom: 0;
     left: 0;
     width: 100%;
     background-color: #988F48;
     text-align: center;
+    position: fixed;
+}
+
+a {
+	font-family: Arial;
+	font-style: oblique;
+	font-size: 1.3em;
+	text-decoration: none;
+	margin-left: 2em;
 }
 
 a:link {
@@ -40,4 +57,16 @@ img.displayed {
 	margin-right: auto;
 	display: block;
 	height: 50%;
+}
+
+#hug-bot {
+	margin-top: 10%;
+	margin-right: auto;
+	margin-bottom: 5%;
+	margin-left: auto;
+	display: block;
+}
+
+#copyright {
+	margin-top: .15em;
 }
