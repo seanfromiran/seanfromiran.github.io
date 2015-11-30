@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Ruby Classes</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+</head>
+
+<body id="blog">
+<h1>Testing our Luck with Ruby Classes</h1>
+<section id="post">
+  <p>In this blog post, I am going to define a simple Ruby class with instance variables and instance methods to show you how these function. Let's get started with the whole class: </p>
+  <script src="https://gist.github.com/seanfromiran/7eb2d90e568714a2d035.js"></script>
+  <p>The entirety of our class is contained between lines 1 and 17. Let's first look at the method from lines 2 to 8 called initialize. When we make a call like: </p>
+  <script src="https://gist.github.com/seanfromiran/45afa3022fe83cec9a74.js"></script>
+  <p>This will create a new instance of our Die class by calling the initialize method. We have set sides equal to 6, so first initialize checks that this is valid and then we set our instance variable @sides equal to sides. When we talk about "instance of a class" what we mean is that we have defined a new object which will now have all the properties of the Die class. </p>
+  <p>Now, we naturally arrive at the question of instance variables and methods. Instance variables are preceded by the "@" symbol and we typically define them with the arguments passed for a new instance of a class. We like instance variables because they can be used between the methods in our class. It is important to note that instance variables are defined specifically for every instance of a class. As far as instance methods, these are methods that we call on instances of our class which allow us to manipulate or display our instance variables in some way.</p>
+</section>    
+    
+<nav class="left">
+  <h4>Recent Blog Posts</h4>
+  <ul>
+		<li><a href="#">Blog post 2 before</a></li>
+		<li><a href="#">Blog post 1 before</a></li>
+		<li><a href="#">Blog post 1 after</a></li>
+    <li><a href="#">Blog post 2 after</a></li>
+  </ul>
+</nav>
+
+<footer>
+  <a href="index.html">Home</a>
+  <a href="/contact/index.html">Contact</a>
+</footer>
+</body>
+</html>
