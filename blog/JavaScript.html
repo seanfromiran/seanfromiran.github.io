@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>JavaScript</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+</head>
+
+<body id="blog">
+<h1>Iteration Declaration: Ruby v. Javascript</h1>
+<section id="post">
+<p>Iteration is an essential aspect of most, if not all, programming languages. Even though the basic ideas behind looping do not change between languages, we do have variations in syntax which are important to take note of. So let's take a look at how Ruby and JavaScript handle this universal technique.</p>
+<p>Beginning with Ruby, we will examine an <code>if</code> statement.</p>
+<script src="https://gist.github.com/seanfromiran/74ac77a6dafc4da07c63.js"></script>
+<p>Relative to other languages, Ruby has a very minimal syntax that feels almost like plain English, and iterators are no exception to this. It is important to observe that <code>elsif</code> is the syntax we use for a conditional statement with more than two expressions to check. Now, let's compare this code block to the same statement in JavaScript.</p>
+<script src="https://gist.github.com/seanfromiran/557f531a465cb805fabc.js"></script>
+<p>The most striking difference here is the heavy reliance on parantheses, brackets, and semicolons by JavaScript. These elements have much less importance in Ruby. Also, what <code>elsif</code> signified in Ruby is now <code>else if</code> in JavaScript.</p>
+<p>This example illustrates the primary differences between JavaScript and Ruby. With Javascript, we generally have to be more explicit in defining our iterators which means that the syntax is denser.</p>
+</section>    
+    
+<nav class="left">
+  <h4>Recent Blog Posts</h4>
+  <ul>
+		<li><a href="#">Blog post 2 before</a></li>
+		<li><a href="#">Blog post 1 before</a></li>
+		<li><a href="#">Blog post 1 after</a></li>
+    <li><a href="#">Blog post 2 after</a></li>
+  </ul>
+</nav>
+
+<footer>
+  <a href="index.html">Home</a>
+  <a href="/contact/index.html">Contact</a>
+</footer>
+</body>
+</html>
