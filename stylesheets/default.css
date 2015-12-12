@@ -3,6 +3,7 @@ h1 {
 	font-family: Garamond;
 	font-style: bold;
 	background-image: url(../imgs/h1-background.png);
+	border-radius: 1em;
 	margin-left: auto;
 	margin-right: auto;
 	width: 40%;
@@ -33,13 +34,13 @@ footer {
     width: 100%;
     background-color: #988F48;
     text-align: center;
+    display: block;
     position: fixed;
 }
 
 a {
 	font-family: Arial;
-	font-style: oblique;
-	font-size: 1.3em;
+	font-size: 1em;
 	text-decoration: none;
 	margin-left: 2em;
 }
@@ -67,6 +68,6 @@ img.displayed {
 	display: block;
 }
 
-#copyright {
-	/* margin-top: .15em;*/
+.bot-link {
+	margin-right: 1em;
 }
