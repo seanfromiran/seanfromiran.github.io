@@ -1,22 +1,6 @@
-h1 {
-	text-align: center;
-	font-family: Garamond;
-	font-style: bold;
-	background-image: url(../imgs/h1-background.png);
-	border-radius: 1em;
-	margin-left: auto;
-	margin-right: auto;
-	width: 40%;
-}
-
-h4 {
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	width: 20%;
-}
-
-html {
+/*Semantic HTML*/
+body {
+	font-family: "Lucida Console", Monaco, monospace;
 	background-color: #D4FFF6;
 }
 
@@ -37,9 +21,42 @@ footer {
     display: block;
     position: fixed;
 }
+/*Headers*/
+h1 {
+	text-align: center;
+	font-style: bold;
+	background-image: url(../imgs/h1-background.png);
+	border-radius: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
 
+h4 {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
+
+h3 span{
+	width: 40%;
+	font-weight: bold;
+	border-bottom: .2em dotted #000;
+}
+
+#cheat-list {
+	list-style-image: url('../imgs/moon-dot.png');
+}
+
+#paper-background {
+	background-image: url(../imgs/crumpled-paper.png);
+	background-repeat: no-repeat;
+	width: 90%;
+	margin: auto;
+}
+/*Links*/
 a {
-	font-family: Arial;
 	font-size: 1em;
 	text-decoration: none;
 	margin-left: 2em;
@@ -53,13 +70,17 @@ a:visited {
 	color: #FF7353;
 }
 
+.bot-link {
+	margin-right: 1em;
+}
+/*Images*/
 img.displayed {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 	height: 50%;
 }
-
+/*id for moon image near bottom of page*/
 #hug-bot {
 	margin-top: 10%;
 	margin-right: auto;
@@ -67,7 +88,7 @@ img.displayed {
 	margin-left: auto;
 	display: block;
 }
-
-.bot-link {
-	margin-right: 1em;
+/*Footer text*/
+#copy {
+	margin-left: 1em;
 }
