@@ -62,6 +62,19 @@ a {
 	margin-left: 2em;
 }
 
+a:hover {
+	display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
 a:link {
 	color: #936AE8;
 }
@@ -82,7 +95,7 @@ img.displayed {
 }
 /*id for moon image near bottom of page*/
 #hug-bot {
-	margin-top: 10%;
+	margin-top: 5%;
 	margin-right: auto;
 	margin-bottom: 5%;
 	margin-left: auto;
