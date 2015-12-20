@@ -12,14 +12,15 @@ nav {
 }
 
 footer {
-    height: 1.5em;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #988F48;
-    text-align: center;
-    display: block;
-    position: fixed;
+	font-weight: bold;
+  background-image: url(../imgs/h1-background.png);
+  text-align: center;
+  height: 1.5em;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: block;
+  position: fixed;
 }
 /*Headers*/
 h1 {
@@ -27,9 +28,16 @@ h1 {
 	font-style: bold;
 	background-image: url(../imgs/h1-background.png);
 	border-radius: 1em;
+	box-shadow: 5px 5px .5em grey;
 	margin-left: auto;
 	margin-right: auto;
 	width: 40%;
+}
+
+h3 span{
+	width: 40%;
+	font-weight: bold;
+	border-bottom: .2em dotted #000;
 }
 
 h4 {
@@ -37,12 +45,6 @@ h4 {
 	margin-left: auto;
 	margin-right: auto;
 	width: 20%;
-}
-
-h3 span{
-	width: 40%;
-	font-weight: bold;
-	border-bottom: .2em dotted #000;
 }
 
 #cheat-list {
@@ -92,6 +94,11 @@ img.displayed {
 	margin-right: auto;
 	display: block;
 	height: 50%;
+}
+
+#big-img {
+	width: 100%;
+	height: auto;
 }
 /*id for moon image near bottom of page*/
 #hug-bot {
