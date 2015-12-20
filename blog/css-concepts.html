@@ -3,8 +3,10 @@
 
 <head>
     <title>Individual Blog Post</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
-   <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
 </head>
 <!--
 <div>
@@ -21,7 +23,7 @@
 These three properties provide the foundation for the box model of html elements; we define their dimensions and this allows us to space elements as we wish. The following diagram provides some insight into how this model works.
 </p>
 
-  <img class="displayed" src="../imgs/margin-border-padding.png" alt="Margin-Border-Padding" style="width:1280px; height 800px;">
+<img id="big-img" src="../imgs/margin-border-padding.png" alt="Margin-Border-Padding">
 
 <p>
 The innermost property of the box model, besides the content, is the padding, a transparent layer around an html element that gives it some initial seperation from other elements. If an element has no border, we can simply use padding in order to give it some empty space between other elements. Just as with margin, we can use either pixels or em (a scale unit of measurement between different platforms) to define just how big we want our padding to be. Another common property between the two is that we can define padding dimnesions all in one line, with the numbers representing top, right, bottom, and left, in that order. The follwing code gives an example:
@@ -55,10 +57,10 @@ Similar to how the padding gives the element space, the margin gives the border 
 <nav>
     <h5>Recent Blog Posts</h5>
     <ul>
-		<li><a href="#">Blog post 2 before</a></li>
-		<li><a href="#">Blog post 1 before</a></li>
-		<li><a href="#">Blog post 1 after</a></li>
-        <li><a href="#">Blog post 2 after</a></li>
+		<li><a href="git.html">Blog post 2 before</a></li>
+		<li><a href="blog-template.html">Blog post 1 before</a></li>
+		<li><a href="arrays-hashes.html">Blog post 1 after</a></li>
+        <li><a href="enumerable-methods.html">Blog post 2 after</a></li>
     </ul>
 </nav>
 <img id="hug-bot" src="../imgs/moon-line.png" alt="Moon Line" style="width:1114px; height 55px;">
