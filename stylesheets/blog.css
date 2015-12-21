@@ -1,35 +1,6 @@
-h1 {
-	width: 40%;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #988F48;
-	text-align: center;
-}
-
-h4 {
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #988F48;
-	text-align: center;
-}
-
-h5 {
-	width: 100%;
-	background-image: url(../imgs/h1-background.png);
-	border-radius: 1em;
-	text-align: center;
-	box-shadow: 5px 5px .5em grey;
-	margin-left: auto;
-	margin-right: auto;
-}
-
+/*Semantic HTML*/
 html {
 	background-color: #D4FFF6;
-}
-
-body {
-	border: none;
 }
 
 section {
@@ -37,16 +8,6 @@ section {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 50px;
-}
-
-#blog {
-	border: none;
-	margin-bottom: 2em;
-}
-
-#blog-list {
-	margin-top: 2em;
-	margin-right: auto;
 }
 
 #post {
@@ -64,12 +25,54 @@ section {
 	position: relative;
 }
 
+#blog {
+	border: none;
+	margin-bottom: 2em;
+}
+
+#blog-list {
+	background-color: #936AE8;
+	padding: .5em;
+	border: .2em inset #936AE8;
+	border-radius: .5em;
+	margin-top: 2em;
+	max-width: 80%;
+}
+
 nav {
 	position: relative;
 	float: left;
 	width: 20%;
 	margin-bottom: 50px;
 	text-align: left;
+}
+/*Headers*/
+h1 {
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #988F48;
+	text-align: center;
+}
+
+h4 {
+	max-width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../imgs/h1-background.png);
+	border-radius: 1.2em;
+	box-shadow: 5px 5px .5em grey;
+	text-align: center;
+}
+
+h5 {
+	width: 100%;
+	background-image: url(../imgs/h1-background.png);
+	border-radius: 1em;
+	text-align: center;
+	box-shadow: 5px 5px .5em grey;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 a:link {
